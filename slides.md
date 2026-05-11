@@ -256,3 +256,44 @@ This boxplot visualizes the distribution of weight, grouped by sex.
 <iframe data-src='media/plots/weight_by_sex_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Xbar One Control Chart for Part Length
+This control chart monitors the `PartLength` for `Machine` 1 at `Temperature` 303 and `Pressure` 100. It helps in detecting shifts in the process mean over time.
+
+**Key Statistics:**
+- **Mean:** N/A
+- **Median:** N/A
+- **Standard Deviation ($\sigma$):** N/A
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/xbar_one_control_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Xbar One Control Chart for Part Length
+This control chart monitors the `PartLength` for `Machine` 1 at `Temperature` 303 and `Pressure` 100. It helps in detecting shifts in the process mean over time.
+
+**Key Statistics:**
+- **Mean:** 50.78
+- **Median:** 50.78
+- **Standard Deviation ($\sigma$):** 0.7
+- **Center Line ($ar{X}$):** 50.78
+- **Upper Control Limit (UCL):** 52.92
+- **Lower Control Limit (LCL):** 48.65
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/xbar_one_control_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
