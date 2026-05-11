@@ -185,3 +185,35 @@ This scatterplot shows the relationship between height and weight, with points c
 <iframe data-src='media/plots/height_vs_weight_scatterplot.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Xbar One Control Chart for Part Length
+This control chart monitors the `PartLength` for `Machine` 1 at `Temperature` 303 and `Pressure` 100. It helps in detecting shifts in the process mean over time.
+
+**Key Statistics:**
+- **Mean:** {round(mean_part_length, 2)}
+- **Median:** {round(median_part_length, 2)}
+- **Standard Deviation ($\sigma$):** {round(std_dev_part_length, 2)}
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/xbar_one_control_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Age Distribution
+This histogram displays the distribution of ages within the dataset.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/age_distribution_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
