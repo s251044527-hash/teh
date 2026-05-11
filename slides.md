@@ -133,3 +133,55 @@ The work done $W$ is positive when the system expands against an external pressu
 
 # Bibliography
 <div id="refs"></div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Age Distribution
+This histogram displays the distribution of ages within the dataset.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/age_distribution_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Average Math Score by Sex
+This bar chart compares the average Math scores between male and female students.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/avg_math_by_sex.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Weight Distribution by Sex
+This boxplot visualizes the distribution of weight, grouped by sex.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/weight_by_sex_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Height vs Weight by Sex
+This scatterplot shows the relationship between height and weight, with points colored by sex.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/height_vs_weight_scatterplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
